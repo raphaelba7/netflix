@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  background-color: #000000;
+  color: white;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  object-fit: cover;
+  width: 1400px;
+  margin: 0px auto;
+}
+
+.container {
+  width: 1400px;
+  margin: 0px auto;
+}
+
+h2 {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.cat_pictures {
+  display: flex;
+  overflow-x: scroll;
+  object-fit: cover;
+  height: 124px;
+}
+
+.each-line {
+  margin-bottom: 40px;
+}
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+/* -------------------*/
+/* ------ FONT ------ */
+/* -------------------*/
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 20px;
+  font-style: normal;
+}
